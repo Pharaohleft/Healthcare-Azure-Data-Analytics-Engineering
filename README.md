@@ -18,6 +18,25 @@ By processing real-time ADT (Admission, Discharge, Transfer) streams, this syste
 
 *(See the live flow from raw chaos to actionable intelligence)*
 
+#### 1. The Mission Control Dashboard
+A consolidated 2x2 view tracking:
+* **Top Left:** Critical Bed Blocks (Patients stuck >48h).
+* **Top Right:** AI "Risk Radar" (Predicting long stays vs. Patient Age).
+* **Bottom Left:** Staffing Heatmap (identifying the busiest shift).
+* **Bottom Right:** Department Efficiency (Bubble size = Volume, Color = Turnaround Speed).
+<img width="1712" height="1036" alt="dashboard" src="https://github.com/user-attachments/assets/c4badf86-9e5e-458c-bc2f-c55fd7a6d785" />
+
+
+#### 2. The "Robotic Analyst" (Automated Briefing)
+Dashboards can be overwhelming. To solve this, I built a logic engine that reads the KPIs and generates a **Natural Language Situation Report**. It assigns a "DEFCON" status (Code Red/Orange/Green) and issues specific staffing orders.
+<img width="1689" height="1197" alt="executive briefing" src="https://github.com/user-attachments/assets/ad91bbf6-9079-465e-a51a-c5c254b24248" />
+
+
+
+#### 3. Gold Layer Validation
+Underlying the visuals is a robust SQL analytics layer. This query calculates the specific "Bed Blockage" metrics that drive the alerts above.
+<img width="1708" height="1086" alt="gold_layer_sql" src="https://github.com/user-attachments/assets/5092b579-255d-44ac-83b3-870d06c3fbaa" />
+
 ---
 
 ### 🛠️ Tech Stack
