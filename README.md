@@ -1,8 +1,8 @@
 # healthcare-azure-data-engineering
 
-# 🏥 Real-Time Hospital Resource Optimization Engine
+#  Real-Time Hospital Resource Optimization Engine
 
-### 🚀 Executive Summary
+###  Executive Summary
 This project is an end-to-end **Lakehouse Data Platform** designed to solve a critical healthcare problem: **Patient Flow Bottlenecks**. 
 
 By processing real-time ADT (Admission, Discharge, Transfer) streams, this system:
@@ -12,8 +12,8 @@ By processing real-time ADT (Admission, Discharge, Transfer) streams, this syste
 
 ---
 
-### 🏗️ System Architecture
-!
+###  System Architecture
+
 <img width="4081" height="6378" alt="Untitled diagram-2026-01-07-043450" src="https://github.com/user-attachments/assets/c80893e5-4ff8-4b3e-bc41-a08aad1e96db" />
 
 *(See the live flow from raw chaos to actionable intelligence)*
@@ -64,7 +64,7 @@ The solution is architected into 6 modular notebooks following the **Medallion A
 
 ---
 
-### 💡 Key Features Implemented
+###  Key Features Implemented
 
 #### 1. The "Ultimate" Analytics Engine
 Instead of simple counts, the Gold layer calculates advanced metrics to measure hospital stability:
@@ -87,7 +87,7 @@ Dashboards can be overwhelming. This project includes a **Natural Language Gener
 
 ---
 
-### 📈 Results
+###  Results
 * **Latency:** Reduced data availability time from Daily Batch to **<10 Seconds**.
 * **Accuracy:** ML Model predicts long-term stays with **85% precision** (simulated).
 * **Operational Value:** Replaces manual spreadsheet reporting with automated, proactive alerts.
